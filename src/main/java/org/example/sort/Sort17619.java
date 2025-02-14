@@ -26,7 +26,8 @@ public class Sort17619 {
       arr[i] = new int[]{x1, x2, y, i + 1};
     }
 
-    Arrays.sort(arr, (o1, o2) -> o1[0] == o2[0] ? Integer.compare(o1[1], o2[1]) : Integer.compare(o1[0], o2[0]));
+    Arrays.sort(arr, (o1, o2) -> o1[0] ==
+                                 o2[0] ? Integer.compare(o1[1], o2[1]) : Integer.compare(o1[0], o2[0]));
 
     int groupId = 1;
     int maxRight = arr[0][1];
