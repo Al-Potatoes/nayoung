@@ -66,3 +66,4 @@ public class Graph14218 {
     System.out.println(sb);
   }
 }
+// 1412ms

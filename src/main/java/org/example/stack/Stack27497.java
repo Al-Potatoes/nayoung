@@ -38,7 +38,7 @@ public class Stack27497 {
       System.out.println("0");
       System.exit(0);
     }
-
+    
     while (!deque.isEmpty()) {
       String s = deque.removeFirst();
       char op = s.charAt(0);
