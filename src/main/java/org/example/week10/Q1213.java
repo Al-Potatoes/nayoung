@@ -31,7 +31,7 @@ public class Q1213 {
           System.out.println("I'm Sorry Hansoo");
           return;
         } else {
-          mid = (char)('A' + i);
+          mid = (char) ('A' + i);
           arr[mid - 'A']--;
         }
       }
